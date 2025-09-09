@@ -11,7 +11,7 @@ function App() {
       {/* Open Form button */}
       <button onClick={() => setIsModalOpen(true)}>Open Form</button>
 
-      {/* Modal Component */}
+ 
       <XModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
